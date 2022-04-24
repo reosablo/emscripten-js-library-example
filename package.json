@@ -3,7 +3,7 @@
   "name": "emscripten-js-library-example",
   "version": "0.1.0",
   "description": "An example package to create JavaScript library with Emscripten",
-  "license": "MIT",
+  "license": "Unlicense",
   "author": "reosablo",
   "type": "module",
   "exports": {
