@@ -4,14 +4,14 @@ import ts from "rollup-plugin-ts";
 /** @type {import("rollup").RollupOptions[]} */
 const config = [
   {
-    input: "src/my-lib.ts",
-    output: [{ dir: "dist" }],
+    input: "src/index.ts",
+    output: [{ file: "dist/my-lib.js" }],
     plugins: [ts()],
   },
   {
-    input: "src/legacy/my-lib.ts",
+    input: "src/legacy/index.ts",
     output: [{
-      dir: "dist/legacy",
+      file: "dist/legacy/my-lib.js",
       format: "iife",
       name: "MyLib",
       extend: true,

@@ -1,4 +1,4 @@
-import * as api from "../my-lib";
+import * as index from "../index";
 
 declare global {
   /**
@@ -8,7 +8,7 @@ declare global {
    * Import `dist/legacy/my-lib.js` to use this.
    * Consider to use `dist/my-lib.js`
    */
-  var MyLib: typeof api;
+  var MyLib: typeof index;
 }
 
-export default api;
+export default index;

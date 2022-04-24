@@ -1,7 +1,7 @@
-// If you use `tsconfig.json`, `my-module.ts` is used.
-// If you use `tsconfig.legacy.json`, `my-module.legacy.ts` will be used.
+// If you use `tsconfig.json`, `./native/index.ts` will be used.
+// If you use `tsconfig.legacy.json`, `./native/index.legacy.ts` will be used.
 // see `tsconfig.legacy.json`
-import myModule from "./my-module";
+import myModule from "./native/index";
 
 /**
  * Greeter API
