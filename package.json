@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "emscripten-js-library-example",
+  "version": "0.1.0",
+  "description": "An example package to create JavaScript library with Emscripten",
+  "license": "MIT",
+  "author": "reosablo",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/legacy/my-lib.js"
+    }
+  },
+  "scripts": {
+    "prepare": "make -C src/native",
+    "build": "rollup -c",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/emscripten": "^1.39.6",
+    "rollup": "^2.70.2",
+    "rollup-plugin-ts": "^2.0.7",
+    "typescript": "^4.7.0-beta"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    // `src/module.legacy.ts` will be used instead of `src/module.ts`
+    // requires TypeScript 4.7+
+    "moduleSuffixes": [".legacy", ""],
+    "declaration": true
+  }
+}
