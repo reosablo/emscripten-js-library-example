@@ -1,5 +1,7 @@
 JavaScript library example using Emscripten
 
+**This repository uses TypeScript 4.7 Beta. Be careful to use in production.**
+
 ## Requirements
 
 - POSIX shell
