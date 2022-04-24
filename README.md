@@ -18,9 +18,17 @@ npm run build
 
 ## Run Demo
 
+### HTML
+
 ```sh
 npx serve
 ```
 
 Then open `demo.html` or `demo-legacy.html` in your browsers and check DevTool
 console output.
+
+### JavaScript (Deno)
+
+```sh
+deno run demo-deno.js
+```
