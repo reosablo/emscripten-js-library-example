@@ -7,6 +7,8 @@ JavaScript library example using Emscripten
 - POSIX shell
 - GNU Make 4.2.1
 - Emscripten 3.1.8
+- Node.js 14.18.2
+- npm 6.14.15
 
 ## Build
 
