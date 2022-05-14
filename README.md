@@ -1,6 +1,6 @@
 JavaScript library example using Emscripten
 
-**This repository uses TypeScript 4.7 Beta. Be careful to use in production.**
+**This repository uses TypeScript 4.7 RC. Be careful to use in production.**
 
 ## Requirements
 
