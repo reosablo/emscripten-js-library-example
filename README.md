@@ -2,6 +2,20 @@ JavaScript library example using Emscripten
 
 **This repository uses TypeScript 4.7 RC. Be careful to use in production.**
 
+## `dist/my-lib.js` vs `dist/legacy/my-lib.js`
+
+`dist/my-lib.js` is built for modern browsers and bundlers.
+
+- APIs are exported as [JavaScript modules (ESM)][esm]
+  - Library users use this with `import` syntax in JavaScript
+- Uses WebAssembly for performance
+
+`dist/legacy/my-lib.js` is build for compatibility.
+
+- APIs are exported in global scope
+  - Library users use this `<script>` tag before main programs
+- Doesn't use WebAssembly
+
 ## Requirements
 
 - POSIX shell
@@ -34,3 +48,5 @@ console output.
 ```sh
 deno run demo-deno.js
 ```
+
+[esm]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
