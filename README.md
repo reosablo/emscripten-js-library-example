@@ -1,7 +1,5 @@
 JavaScript library example using Emscripten
 
-**This repository uses TypeScript 4.7 RC. Be careful to use in production.**
-
 ## `dist/my-lib.js` vs `dist/legacy/my-lib.js`
 
 `dist/my-lib.js` is built for modern browsers and bundlers.
